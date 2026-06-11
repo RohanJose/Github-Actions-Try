@@ -29,9 +29,6 @@ jobs:
 
       - name: List repository
         run: ls -R
-      - name: Trying Testing   
+      - name: Running Test  
         run: pytest test.py -v
-      
-      - name: Run Tests
-        run: |
-          pytest
+    
