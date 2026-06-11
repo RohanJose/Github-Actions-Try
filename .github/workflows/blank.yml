@@ -27,6 +27,8 @@ jobs:
         run: |
           ruff check .
 
+      - name: List repository
+        run: ls -R
       - name: Run Tests
         run: |
           pytest
